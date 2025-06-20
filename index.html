@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品智慧探索 POC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>商品頁面</h1>
+    </header>
+
+    <main>
+        <section id="product-details">
+            <h2>[產品名稱]</h2>
+            <p>這裡是產品的詳細說明、價格等信息。</p>
+            <img src="https://via.placeholder.com/400x300?text=Product+Image" alt="產品圖片" style="max-width: 100%;">
+        </section>
+
+        <section id="smart-explore-section">
+            <h2>商品智慧探索</h2>
+
+            <div id="explore-view-navigator">
+                <div class="central-product-node" data-node-id="current-product">當前商品 (Product)</div>
+                <div class="explore-tags-container">
+                    <button class="explore-tag" data-tag-id="tag1">戶外機能</button>
+                    <button class="explore-tag" data-tag-id="tag2">高CP值</button>
+                    <button class="explore-tag" data-tag-id="tag3">人氣熱銷</button>
+                    <button class="explore-tag" data-tag-id="tag4">專業評測</button>
+                    <button class="explore-tag" data-tag-id="tag5">新手入門</button>
+                </div>
+            </div>
+
+            <div id="contextual-storyboard">
+                <div class="storyboard-carousel">
+                    <div class="storyboard-slides-container">
+                        <div class="storyboard-slide" style="display: block;"> <!-- Active slide -->
+                            <div class="slide-image-container">
+                                <img src="https://via.placeholder.com/600x300?text=Storyboard+Image+1" alt="情境故事板圖片1">
+                                <div class="storyboard-hotspots">
+                                    <button class="hotspot" style="top: 30%; left: 20%;">熱點1</button>
+                                    <button class="hotspot" style="top: 50%; left: 60%;">熱點2</button>
+                                </div>
+                            </div>
+                            <div class="storyboard-caption">
+                                這個故事推薦：為您的早晨增添活力，從一杯完美咖啡開始！
+                            </div>
+                        </div>
+                        <div class="storyboard-slide" style="display: none;"> <!-- Hidden slide -->
+                            <div class="slide-image-container">
+                                <img src="https://via.placeholder.com/600x300?text=Storyboard+Image+2" alt="情境故事板圖片2">
+                                <div class="storyboard-hotspots">
+                                    <button class="hotspot" style="top: 40%; left: 30%;">熱點A</button>
+                                    <button class="hotspot" style="top: 60%; left: 70%;">熱點B</button>
+                                </div>
+                            </div>
+                            <div class="storyboard-caption">
+                                這個故事推薦：探索戶外，記錄每一個精彩瞬間。
+                            </div>
+                        </div>
+                    </div>
+                    <button class="prev-slide">&#10094;</button>
+                    <button class="next-slide">&#10095;</button>
+                </div>
+            </div>
+
+            <div id="user-explore-trail">
+                <h4>我的探索足跡</h4>
+                <ul class="explore-trail-list">
+                    <li class="trail-item" data-trail-id="tagX">戶外攝影</li>
+                    <li class="trail-item" data-trail-id="tagY">防水相機包</li>
+                    <li class="trail-item" data-trail-id="tagZ">星空攝影</li>
+                </ul>
+            </div>
+
+            <div id="intelligent-qa-guide">
+                <!-- 智能問答/引導助手將在此處 -->
+                <p>智能問答/引導助手 (Intelligent Q&A/Guide) Placeholder</p>
+            </div>
+
+            <div id="community-insight">
+                <!-- 社群智慧洞察將在此處 -->
+                <p>社群智慧洞察 (Community Insight) Placeholder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 電商平台 POC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
